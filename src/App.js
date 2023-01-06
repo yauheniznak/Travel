@@ -38,7 +38,7 @@ function App() {
             <img src={image} width="300px" height="300px" alt="places"/>
           </div>
           <div className="container">
-            <p>{showText?description:description.substring(0,200)+"..."}
+            <p>{showMore?description:description.substring(0,200)+"..."}
             <button onClick ={()=> {showTextClick(element)} }>{showMore?"Show More":"Show Less"}</button>
             </p>
             
