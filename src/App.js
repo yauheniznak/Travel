@@ -39,7 +39,7 @@ function App() {
           </div>
           <div className="container">
             <p>{showMore?description:description.substring(0,200)+"..."}
-            <button onClick ={()=> {showTextClick(element)} }>{showMore?"Show More":"Show Less"}</button>
+            <button onClick ={()=> {showTextClick(element)} }>{showMore?"Show Less":"Show More"}</button>
             </p>
             
           </div>
